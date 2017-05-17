@@ -1,0 +1,14 @@
+let number= 0
+for i in *
+do
+	let number++ 
+	convert "$i[30x30+0+0]" ../true_seg_cube/$number.png
+	
+	let number++ 
+	convert "$i[30x30+0+30]" ../true_seg_cube/$number.png
+	
+	let number++ 
+	convert "$i[30x30+0+60]" ../true_seg_cube/$number.png
+
+	echo "segmenting on $i"
+done
