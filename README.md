@@ -21,8 +21,10 @@ http://wiki.ros.org/indigo/Installation/Ubuntu
 catkin_make in the root of repository
 
 ## Run the detection node
-source devel/setup.bash 
-rosrun trunk_detection_node img_publisher.py 
-rosrun trunk_detection_node detection_node.py
+ source devel/setup.bash 
+
+ rosrun trunk_detection_node img_publisher.py 
+ 
+ rosrun trunk_detection_node detection_node.py
 
 
